@@ -1,0 +1,4 @@
+header, nav {
+   /* or absolute or relative */
+  z-index: 100001;
+}
