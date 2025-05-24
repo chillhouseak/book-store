@@ -33,7 +33,7 @@ const Uploadbook = () => {
       bookpdfUrl
     };
 
-    fetch("http://localhost:3000/upload-book", {
+    fetch("https://book-store-pp85.vercel.app//upload-book", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

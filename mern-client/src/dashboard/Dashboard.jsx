@@ -12,7 +12,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3000/all-books')
+    fetch('https://book-store-pp85.vercel.app//all-books')
       .then(res => res.json())
       .then(data => {
         setBooks(data);

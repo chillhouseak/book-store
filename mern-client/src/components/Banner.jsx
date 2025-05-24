@@ -13,7 +13,7 @@ function Banner() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/all-books");
+      const res = await fetch("https://book-store-pp85.vercel.app//all-books");
       const books = await res.json();
 
       const matchedBook = books.find(book =>
