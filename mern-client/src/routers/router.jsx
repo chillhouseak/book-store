@@ -7,7 +7,7 @@ import Home from "../home/Home.jsx";
 import Shop from "../shop/Shop.jsx"
 import About from "../components/About.jsx"
 import Blog from "../components/Blog.jsx"
-import Singlebook from "../shop/SingleBook.jsx";
+import Singlebook from "../shop/Singlebook.jsx";
 import Dashboardlayout from "../dashboard/Dashboardlayout.jsx";
 import Dashboard from "../dashboard/Dashboard.jsx";
 import Uploadbook from "../dashboard/Uploadbook.jsx";
