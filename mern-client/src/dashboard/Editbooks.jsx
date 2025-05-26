@@ -42,7 +42,7 @@ const Editbooks = () => {
       category: selectbookcategory
     };
 
-    fetch(`https://book-store-pp85.vercel.app//book/${id}`, {
+    fetch(`https://book-store-y21m.onrender.com/book/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"

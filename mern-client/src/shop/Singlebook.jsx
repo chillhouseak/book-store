@@ -6,7 +6,7 @@ const Singlebook = () => {
   const [book, setBook] = useState(null);
 
   useEffect(() => {
-    fetch(`https://book-store-pp85.vercel.app//book/${id}`)
+    fetch(`https://book-store-y21m.onrender.com/book/${id}`)
       .then(res => res.json())
       .then(data => setBook(data))
       .catch(err => console.error("Failed to fetch book:", err));

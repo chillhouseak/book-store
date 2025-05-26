@@ -7,7 +7,7 @@ const ManageBooks = () => {
 
   // Fetch all books from backend
   useEffect(() => {
-    fetch('https://book-store-pp85.vercel.app//all-books')
+    fetch('https://book-store-y21m.onrender.com/all-books')
       .then(res => res.json())
       .then(data => setBooks(data))
       .catch(err => console.error('Failed to fetch books:', err));
@@ -19,7 +19,7 @@ const ManageBooks = () => {
     if (!confirmDelete) return;
 
     try {
-      const response = await fetch(`https://book-store-pp85.vercel.app//book/${id}`, {
+      const response = await fetch(`https://book-store-y21m.onrender.com/book/${id}`, {
         method: "DELETE",
       });
       const result = await response.json();

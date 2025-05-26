@@ -4,7 +4,7 @@ function Favouritebooks() {
     const [books, setBooks] = useState([]);
 
     useEffect(()=>{
-        fetch("https://book-store-pp85.vercel.app//all-books").then(res=> res.json()).then(data => setBooks(data.slice(0,6)))
+        fetch("https://book-store-y21m.onrender.com/all-books").then(res=> res.json()).then(data => setBooks(data.slice(0,6)))
     },[])
   return (
     <div>

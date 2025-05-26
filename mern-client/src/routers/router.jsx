@@ -42,7 +42,7 @@ const router = createBrowserRouter([
             {
                 path: "/book/:id",
                 element: <Singlebook/>,
-                loader: ({params}) => fetch(`https://book-store-pp85.vercel.app/book/${params.id}`)
+                loader: ({params}) => fetch(`https://book-store-y21m.onrender.com/book/${params.id}`)
             }
         ]
     },
@@ -65,7 +65,7 @@ const router = createBrowserRouter([
             {
                  path: "/admin/dashboard/edit/:id",
                 element: <Editbooks/>,
-                  loader: ({params}) => fetch(`https://book-store-pp85.vercel.app//book/${params.id}`)
+                  loader: ({params}) => fetch(`https://book-store-y21m.onrender.com/book/${params.id}`)
             }
         ]
     },
